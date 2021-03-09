@@ -12,7 +12,7 @@ https://signtools.github.io/ota-me/data/8080
 
 It will instruct your device to install the app found under http://localhost:8080
 
-You can replace the leading `8080` to any number between `0-10000`.
+You can replace the trailing `8080` to any number between `0-10000`.
 
 ## Why this works
 
