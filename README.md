@@ -1,6 +1,6 @@
-# OTA ME
+# OTA Me
 
-This is a very simple project that lets you OTA install iOS apps over HTTP.
+This is a very simple project that lets you OTA install iOS apps from localhost over HTTP. If you are looking for a more flexible, but more complicated solution, check out [ota-proxy](https://github.com/SignTools/ota-proxy).
 
 It works by offering valid HTTPS OTA manifests, hosted here on GitHub, that install any app from localhost over HTTP. You can host your IPA locally on any port, then use the corresponding manifest from here to install that app. The app download remains completely local - the manifest is only used to resolve the app's local URL. No information is ever transmitted to the internet. This method works because Apple enforces the manifest to be served over HTTPS, but not the apps within the manifest.
 
